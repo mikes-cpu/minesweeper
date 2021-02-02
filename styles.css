@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #ececec;
+  color: #ffffff;
+  font-family: "Karla", sans-serif;
+  font-weight: 600;
+}
+
+.wrapper {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper img {
+  width: 300px;
+  margin-bottom: 20px;
+  -webkit-transform: translateX(17px);
+          transform: translateX(17px);
+}
+
+.wrapper .gameboard {
+  border: 1px solid #dbdbdb;
+  background-color: #2e2e2e;
+  border: 2px solid #494949;
+}
+
+.wrapper p {
+  margin: 10px 0;
+  letter-spacing: 27px;
+  text-align: center;
+  text-indent: 20px;
+  padding: 5px;
+  font-size: 10px;
+}
+
+.wrapper form {
+  position: fixed;
+  bottom: 5%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #333;
+  background-color: #ececec;
+  padding: 20px 15px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.wrapper form label {
+  margin-bottom: 4px;
+}
+
+.wrapper form .colInput {
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.wrapper form .rowInput {
+  margin-bottom: 15px;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.wrapper form .submitButton {
+  padding: 2px;
+  font-size: 12px;
+}
+/*# sourceMappingURL=styles.css.map */
